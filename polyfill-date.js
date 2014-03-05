@@ -4,10 +4,10 @@
  * Copyright 2014 Marko Durkovic
  */
 define([
-    "../registry",
+    "pat-egistry",
     "modernizr",
-    "bootstrap.datepicker"
-], function(registry) {
+    "pikaday"
+], function(registry, modernizr, pikaday) {
     var _ = {
         name: "polyfill-date",
         trigger: "input[type=date]",
