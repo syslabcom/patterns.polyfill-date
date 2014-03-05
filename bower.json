@@ -21,6 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "pickaday": "1.2.0"
+    "pikaday": "1.2.0"
   }
 }
