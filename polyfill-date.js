@@ -4,7 +4,7 @@
  * Copyright 2014 Marko Durkovic
  */
 define([
-    "pat-egistry",
+    "pat-registry",
     "modernizr",
     "pikaday"
 ], function(registry, modernizr, pikaday) {
