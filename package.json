@@ -1,0 +1,24 @@
+{
+  "name": "polyfill-date",
+  "version": "1.0",
+  "description": "A datepicker Pattern",
+  "author": {
+    "name": "Alexander Pilz",
+    "email": "pilz@syslab.com",
+    "web": "http://syslab.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:syslabcom/patterns.polyfill-date.git"
+  },
+  "dependencies": {
+    "pickaday": "1.2.0",
+  },
+  "devDependencies": {
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
