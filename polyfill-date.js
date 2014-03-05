@@ -1,19 +1,18 @@
 /**
  * Patterns polyfill-color - Polyfill for input type=date
  *
- * Copyright 2014 Marko Durkovic
  */
 define([
     "pat-registry",
     "modernizr",
-    "pikaday"
+    "pikaday.jquery"
 ], function(registry, modernizr, pikaday) {
     var _ = {
         name: "polyfill-date",
         trigger: "input[type=date]",
         init: function($el) {
             if (!Modernizr.inputtypes.date) {
-                $el.datepicker({format:'yyyy-mm-dd'});
+                $el.pikaday();
             }
             return $el;
         },
