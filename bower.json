@@ -1,0 +1,26 @@
+{
+  "name": "patterns.polyfill-date",
+  "version": "1.0",
+  "homepage": "https://github.com/syslabcom/patterns.polyfill-date",
+  "authors": [
+    "Alexander Pilz <pilz@syslab.com>"
+  ],
+  "description": "A pattern for a datepicker polyfill",
+  "main": "polyfill-date.js",
+  "keywords": [
+    "patterns",
+    "datepicker",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pickaday": "1.2.0"
+  }
+}
