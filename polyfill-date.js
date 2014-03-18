@@ -9,7 +9,7 @@ define([
 ], function(registry, modernizr, pikaday) {
     var _ = {
         name: "polyfill-date",
-        trigger: ".pat-polyfill-date",
+        trigger: ".pat-date-picker",
         init: function($el) {
             if (!Modernizr.inputtypes.date) {
                 $el.pikaday();
