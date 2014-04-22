@@ -5,8 +5,10 @@
 define([
     "pat-registry",
     "modernizr",
-    "pikaday.jquery"
-], function(registry, modernizr, pikaday) {
+    "pikaday.jquery",
+    "moment",
+    "moment-timezone"
+], function(registry, modernizr, pikaday, moment, momenttimezone) {
     var _ = {
         name: "polyfill-date",
         trigger: ".pat-date-picker",
